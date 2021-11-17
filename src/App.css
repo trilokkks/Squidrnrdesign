@@ -1,0 +1,151 @@
+body {
+    background: linear-gradient(180deg, #222527 0%, #111113 100%);
+    color: #ffffff !important;
+}
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-evenly; */
+}
+
+.join {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.join img {
+    cursor: pointer;
+}
+
+span {
+    color: #ffffff !important;
+}
+
+.home .text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textImage {
+    margin-bottom: 15px;
+}
+
+.form-content {
+    margin: 60px 0;
+}
+
+.form {
+    padding: 120px 44px;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    color: #7c7c7c;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 6px;
+}
+
+.form-group input {
+    margin-bottom: 16px;
+    background: #37393b;
+    border-radius: 3px;
+    height: 50.66px;
+    padding: 18px 16px;
+    border: none;
+    color: #ffffff;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+}
+
+.footer button {
+    width: 100%;
+    background: #c53058;
+    border-radius: 3px;
+    height: 50.66px;
+    border: none;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height */
+    color: #ffffff;
+}
+
+input[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+}
+
+.checkbox {
+    display: flex;
+}
+
+.checkbox label {
+    font-style: normal !important;
+    font-weight: 300 !important;
+    font-size: 12px !important;
+    line-height: 18px !important;
+    color: #7c7c7c !important;
+}
+
+button {
+    cursor: pointer;
+}
+
+.success {
+    padding: 72px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+
+.mask {
+    margin: 30px 0;
+}
+
+.maskImage {
+    width: 100%;
+}
+
+.success .final {
+    font-style: normal;
+    font-weight: 200;
+    font-size: 14px;
+    line-height: 150%;
+    /* or 21px */
+    text-align: center;
+    color: #e7e5e5;
+    padding: 0 15%;
+}
+
+.centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
